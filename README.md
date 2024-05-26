@@ -5,6 +5,10 @@ JapanShare is a travel guide website dedicated to providing comprehensive inform
 <br>
 
 <img src="https://github.com/Vondex/JapanShare-html-css/blob/main/home.png" alt="home-page">
+<br>
+<br>
+<h1>Live Demo</h1>
+<a href="https://vondex.github.io/JapanShare-html-css/"></a>
 
 <h2>Features</h2>
 
