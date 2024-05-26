@@ -1,0 +1,179 @@
+/*Стилизация на началната страница */
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+#myVideo {
+
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  margin-top: -10em;
+  filter: brightness(50%);
+
+}
+
+.headings {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+
+}
+
+.headings h2 {
+  font-size: 4.5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.headings h3 {
+  font-size: 3em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.headings p {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
+.headings span {
+  color: rgb(213, 14, 14);
+}
+
+.headings a {
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.headings a:hover {
+  color: rgb(209, 10, 10);
+  box-shadow: #111 6px 6px 10px;
+}
+
+.welcome,
+.japan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+
+}
+
+.welcome h1,
+.japan h1 {
+  font-family: 'Comforter Brush', cursive;
+  font-size: 7em;
+  color: rgb(124, 6, 6);
+  margin-bottom: 0;
+}
+
+.japan h2 {
+  font-family: 'Comforter Brush', cursive;
+  font-size: 3.5em;
+  color: rgb(124, 6, 6);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.welcome p,
+.japan p {
+  font-size: 1.5em;
+  padding-bottom: 2em;
+}
+
+
+.box {
+  width: 100%;
+  height: 600px;
+}
+
+
+.section-1 {
+  height: 100vh;
+  background-image: url('../img/sunrise.jpg');
+  background-position: 70%;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.section-2 {
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+hr {
+  width: 70%;
+  margin: auto;
+
+}
+
+.section-2 h1 {
+  font-family: 'Comforter Brush', cursive;
+  font-size: 3.5em;
+  color: rgb(124, 6, 6);
+  margin-bottom: 0;
+}
+
+
+/* Стилизация на таблицата */
+.japan-table {
+
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  margin-top: 2em;
+}
+
+#cherry-blossom {
+  text-align: center;
+}
+
+.japan-table p {
+  text-align: justify;
+  font-size: 1.3em;
+  width: 40%;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 60%;
+  color: black;
+  box-shadow: #111 6px 6px 10px;
+}
+tr:nth-child(odd) {
+  background-color: #5b0500ad;
+  color: white;
+}
+
+th,
+td {
+  font-size: 1.1em;
+  width: 30%;
+
+}

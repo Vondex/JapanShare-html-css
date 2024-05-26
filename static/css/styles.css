@@ -1,0 +1,12 @@
+/* Импорти */
+@import url('site.css');
+@import url('home.css');
+@import url('contacts.css');
+@import url('categories.css');
+@import url('./categories/nature.css');
+@import url('./categories/culture.css');
+@import url('./categories/cuisine.css');
+@import url('./categories/details-responsive.css');
+@import url('./main-responsive.css');
+@import url('./categories/modern.css');
+@import url('./guide.css');

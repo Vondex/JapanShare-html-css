@@ -1,0 +1,56 @@
+ /* Resposnive design - Навигация, Footer, Начална (главна) страница*/
+
+@media (max-width: 767px) {
+
+    header nav .links a {
+        font-size: 0.9em;
+    }
+
+    #myVideo {
+
+        height: 80vh;
+    }
+
+    .headings h2 {
+        font-size: 2.5em;
+    }
+
+    .headings h3 {
+        font-size: 1.5em;
+    }
+
+    .headings p {
+        font-size: 1em;
+    }
+
+    .links {
+        width: 100%;
+    }
+
+    .logo h4 {
+
+        display: none;
+        /* При по-малък дисплей скриваме текста на логото (слогана) */
+    }
+
+    .japan-table {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table,
+    .japan-table p {
+        width: 100%;
+    }
+
+    .footer-content {
+        font-size: 0.8em;
+    }
+
+    .socials {
+        flex-direction: column;
+    }
+
+
+}

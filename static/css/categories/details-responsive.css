@@ -1,0 +1,157 @@
+@media (max-width: 767px) {
+    
+    .popup img {
+        width: 60%;
+        height: 30%;
+    }
+
+    .main-info {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .main-info .description,
+    .main-info .image {
+        width: 100%;
+    }
+
+    .photos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .photos img {
+        width: 80%;
+        height: 250px;
+    }
+
+    .cont {
+        font-size: 1em;
+        width: 80%;
+    }
+
+
+    .margin {
+        font-size: 0.6em;
+        width: 80%;
+    }
+
+    .places {
+        justify-content: center;
+    }
+
+    .section-1-details {
+        height: 60vh;
+    }
+
+    .section-1-details h2 {
+        font-size: 6em;
+    }
+
+    .section-3-details,
+    .section-5-details {
+        height: 50vh;
+        background-position: 50%;
+    }
+
+    .popup span {
+
+        top: 30%;
+        right: 20%;
+        font-size: 35px;
+
+    }
+
+
+    .gotopbtn {
+
+        width: 50px;
+        height: 50px;
+        bottom: 10%;
+        right: 10%;
+        font-size: 25px;
+        z-index: 1;
+
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+     
+    
+    /* Categories - Details page Responsive */
+    .popup img {
+        width: 60%;
+        height: 50%;
+    }
+
+    .main-info {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .main-info .description,
+    .main-info .image {
+        width: 100%;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .photos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .photos-card  {
+        height: 350px;
+    }
+
+    .cont {
+        font-size: 1.5em;
+        width: 80%;
+    }
+    .gotopbtn {
+
+        width: 50px;
+        height: 50px;
+        bottom: 10%;
+        right: 15%;
+        font-size: 30px;
+        z-index: 1;
+
+    }
+
+    .popup span {
+        top: 20%;
+        right: 20%;
+        font-size: 35px;
+    }
+
+    .margin {
+        font-size: 0.8em;
+        width: 80%;
+    }
+    .section-3-details,
+    .section-5-details {
+        background-position: 10%;
+    }
+
+    
+}
+
+

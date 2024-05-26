@@ -1,0 +1,106 @@
+/* Стилизация на страница Контакти */
+
+.contacts {
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.contact_us {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    color: #424242;
+    font-size: 1.2em;
+}
+
+
+.container {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    gap: 10%;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.container label {
+    color: #424242;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+
+form input {
+    padding: 0.3em;
+    border: solid 0.5px rgb(175, 174, 174);
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    color: #424242;
+    margin-bottom: 0.5em;
+}
+
+
+textarea {
+    resize: none;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    color: #424242;
+    border: solid 0.5px rgb(175, 174, 174);
+}
+
+#send {
+    /* font-weight: 500; */
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    width: 40%;
+    background-color: #969696;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.map {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: #424242;
+    margin-top: -2em;
+}
+.map iframe {
+    box-shadow: #1111118f 6px 6px 20px;
+}
+
+
+#send:hover {
+    cursor: pointer;
+    background-color: #e3e3e3;
+    border: solid 1px #969696;
+    color: #969696;
+
+}
+
+
+@media (max-width: 767px) {
+
+    .container {
+        flex-direction: column;
+    }
+    .container form, .map {
+        width: 100%;
+    }
+    .map {
+        margin-top: 1.5em;
+    }
+
+
+}

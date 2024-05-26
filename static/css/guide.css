@@ -1,0 +1,42 @@
+/* Стилизация на страница Съвети */
+
+.guide {
+    height: auto;
+    font-size: 1.2em;
+    background-color: #e3e3e3;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.guide-heading {
+    width: 70%;
+    margin: auto;
+}
+
+.guide-heading h1 {
+    color: rgb(163, 13, 13);
+    font-size: 2.5em;
+}
+.guide-heading img {
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+   
+}
+.guide-container {
+
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.guide-container h2 {
+    margin-top: 60px;
+    color: #252525;
+}
+
+.guide-container hr {
+    margin-top: 60px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(194, 16, 16);
+}

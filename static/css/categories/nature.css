@@ -1,0 +1,234 @@
+.section-1-details {
+  height: 100vh;
+  background-image: url('../../img/fuji-mountain.jpg');
+  background-position: 70%;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: -10em;
+  position: relative;
+
+}
+
+.section-3-details {
+  background-image: url('../../img/nakaharu.jpg');
+  /* background-position: 70%; */
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 5em;
+}
+
+.section-5-details {
+  background-image: url('../../img/clouds.jpg');
+  background-position: 70%;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 5em;
+}
+
+
+.details {
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.details hr {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(194, 16, 16);
+
+}
+
+.section-2-details h1 {
+  font-family: 'Comforter Brush', cursive;
+  font-size: 3.5em;
+  color: rgb(124, 6, 6);
+  margin-bottom: 0;
+
+}
+
+.details-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: brightness(50%);
+
+}
+
+
+.text-overlay {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+  width: 70%;
+
+
+}
+
+
+.text-overlay h2 {
+  font-size: 4.5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+
+.margin {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.margin p {
+  text-align: center;
+  font-size: 1.6em;
+
+}
+
+.places {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3em;
+}
+
+.places a {
+  text-decoration: none;
+  color: black;
+  margin: 1em;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.places a:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(194, 16, 16);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+.places a:hover {
+  color: rgb(194, 16, 16);
+  cursor: pointer;
+}
+
+.places a:hover:after {
+  width: 100%;
+}
+
+.margin hr {
+  height: 1px;
+  background-color: rgb(194, 16, 16);
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  gap: 5em;
+  font-size: 1.3em;
+  text-align: justify;
+  margin-bottom: 5em;
+}
+
+.cont img {
+  box-shadow: #1111118f 6px 6px 20px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.description {
+  width: 40%;
+}
+
+.description h2 {
+  text-transform: uppercase;
+}
+
+.image {
+  width: 50%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Галерия */
+.photos {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.photos img {
+
+  width: 30%;
+  transition: 0.2s linear;
+  box-shadow: none;
+}
+
+.photos img:hover {
+  cursor: pointer;
+  transform: translateY(-0.5%);
+  box-shadow: #1111118f 6px 6px 20px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.popup span {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 60px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: lighter;
+}
+
+.popup img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Responsive design */
+@media (max-width: 780px) {
+  .nature {
+    font-size: 0.6em;
+  }
+}

@@ -1,0 +1,50 @@
+.modern-1 {
+    background-image: url('../../img/tokyo/akihabara.jpg');
+    /* background-color: rgba(0, 0, 0, 0.673); */
+}
+.modern-1 .details-overlay{
+    backdrop-filter: brightness(40%);
+}
+
+.modern-3 {
+    background-image: url('../../img/tokyo/shibuya.jpg');
+    filter: brightness(70%);
+    background-position: 0%;
+}
+
+.modern-5 {
+    background-image: url('../../img/tokyo/tokyo-1.jpg');
+    filter: brightness(70%);
+}
+.activities .description, .night_life .description, .architecture .description {
+    width: 100%;
+}
+
+
+
+@media (max-width: 767px) {
+    
+    .section-1-details .modern h2 {
+        font-size: 40px;
+    }   
+    #modern-gallery {
+        margin-top: 5px;
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .modern-1 {
+        height: 60vh;
+    }
+    .modern-3 {
+        height: 50vh;
+    }
+    .section-1-details .modern h2 {
+        font-size: 40px;
+    }
+    #modern-gallery {
+        margin-top: 5px;
+    }
+}
