@@ -1,7 +1,7 @@
 <h1>JapanShare</h1>
 JapanShare is a travel guide website dedicated to providing comprehensive information and resources for travelers planning a trip to Japan. Built using HTML, CSS, and JavaScript, JapanShare offers a user-friendly interface with interactive features to enhance the browsing experience.
 
-<img src="https://github.com/Vondex/JapanShare/blob/main//home.png" alt="home-page">
+<img src="https://github.com/Vondex/JapanShare-html-css/blob/main/home.png" alt="home-page">
 
 <h2>Features</h2>
 
