@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="icon" type="image/x-icon" href="./static/img/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+    <!-- Навигация - Header -->
+    <header id="no-scroll">
+        <nav>
+
+            <div class="logo">
+                <a href="./home.html"> <img src="./static/img/logo.png" alt="_logo" width="70px" height="70px"></a>
+                <a href="./home.html"><h4>Открий света с нас</h4></a>
+            </div>
+
+            <div class="links">
+                <a href="./home.html">Начало</a>
+                <a href="./categories.html">Категории</a>
+                <a href="./guide.html">Съвети</a>
+                <a href="./contacts.html">Контакти</a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Стрелка за скролване към най-горната част на страницата -->
+    <a class="gotopbtn" href="#"> <i class="fas fa-chevron-up"></i> </a>
+
+
+     <!-- Главно съдържание на страницата -->
+    <main>
+        <section class="contacts">
+            
+
+            <div class="contact_us">
+                <h1>Свържете се с нас!</h1>
+                <p>В случай, че искате да споделите или научите нещо повече за Япония и нейната магия или за други
+                    туристически перли, молим да ни пишете.</p>
+            </div>
+
+            <div class="container">
+                <form action="">
+                    <label for="names"><i class="fas fa-solid fa-user"></i> Име и Фамилия</label>
+                    <input type="text" name="names">
+
+                    <label for="phone"><i class="fas fa-solid fa-phone"></i> Телефон</label>
+                    <input type="text" name="phone">
+
+                    <label for="email"><i class="fas fa-solid fa-envelope"></i> Email</label>
+                    <input type="text" name="email" placeholder="example@gmail.com">
+
+                    <label for="comment"><i class="fas fa-solid fa-comment"></i> Коментар</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+                    <input id="send" type="button" value="Изпрати">
+                </form>
+                <div class="map">
+                    <h1>Къде да ни намерите?</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.819953413682!2d27.90849911161555!3d43.21326557100605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a45473e0e7cc29%3A0x4ffd00d3c22eb8c9!2z0YPQuy4g4oCe0J7QsdC-0YDQuNGJ0LXigJwgMzMtMjcsIDkwMDAg0JLQsNGA0L3QsCDQptC10L3RgtGK0YAsINCS0LDRgNC90LA!5e0!3m2!1sbg!2sbg!4v1703801936908!5m2!1sbg!2sbg"
+                         height="470px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+     <!-- Footer секция + контакти-->
+    <footer>
+        <div class="footer-content">
+            <div class="socials">
+
+
+                <div class="button">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <span>Facebook</span>
+                </div>
+
+                <div class="button">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <span>Twitter</span>
+                </div>
+
+                <div class="button">
+                    <a href=""> <i class="fab fa-instagram"></i></a>
+                    <span>Instagram</span>
+                </div>
+
+
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; <br> Туристически перли за откриване</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
